@@ -60,7 +60,7 @@
 
 -(void)dealloc
 {
-//    BBLog(@"finished");
+//    NSLog(@"finished");
 }
 
 

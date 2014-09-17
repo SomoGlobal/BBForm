@@ -7,7 +7,6 @@
 //
 
 #import "BBPropertyList.h"
-#import "BBLog.h"
 
 @implementation BBPropertyList
 
@@ -37,7 +36,7 @@
 		
 		if (items == nil)
 		{
-			BBLog(@"%@", errorDesc);
+			NSLog(@"%@", errorDesc);
 		}
 	}
 	
@@ -69,7 +68,7 @@
 			
 			if (items == nil)
 			{
-				//BBLog(@"%@", errorDesc);
+				//NSLog(@"%@", errorDesc);
 			}
 			else if (![items isKindOfClass:[NSDictionary class]])
 			{

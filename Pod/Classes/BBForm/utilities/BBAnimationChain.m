@@ -8,7 +8,6 @@
 
 #import "BBAnimationChain.h"
 
-#import "BBLog.h"
 @interface BBAnimationChain ()
 
 @property (nonatomic, strong) NSArray *steps;
@@ -73,6 +72,6 @@
 
 -(void)dealloc
 {
-    BBLog(@"dealloc animcation chain");
+    NSLog(@"dealloc animcation chain");
 }
 @end

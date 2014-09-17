@@ -9,7 +9,6 @@
 #import "BBCellInstanceCache.h"
 #import "BBNibCache.h"
 #import "BBTableViewCell.h"
-#import "BBLog.h"
 
 @implementation BBCellInstanceCache
 
@@ -51,7 +50,7 @@
         else
         {
             // just create it..
-            BBLog(@"Create cell for %@",className);
+            NSLog(@"Create cell for %@",className);
         }
     }
     return cell;
