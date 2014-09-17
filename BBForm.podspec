@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BBForm"
-  s.version          = "0.1.0"
+  s.version          = "0.4"
   s.summary          = "A simple form solution for iOS with validation"
 #  s.description      = <<-DESC
 #                       An optional longer description of BBForm
@@ -17,17 +17,17 @@ Pod::Spec.new do |s|
 #                       * Markdown format.
 #                       * Don't worry about the indent, we strip it!
 #                       DESC
-  s.homepage         = "https://github.com/toolboxash/BBForm"
+  s.homepage         = "https://github.com/SomoGlobal/BBForm"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ashley Thwaites" => "ash@toolbox-design.co.uk" }
-  s.source           = { :git => "https://github.com/toolboxash/BBForm.git", :tag => s.version.to_s }
+  s.source           = { :git => "http://github.com/SomoGlobal/BBForm.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/{BBFormValidation,BBForm}/**/*.{h,m}'
+  s.source_files = 'Pod/Classes/{BBForm}/**/*.{h,m}'
   s.resource_bundles = {
     'BBForm' => ['Pod/Assets/*.png']
   }
